@@ -1,6 +1,6 @@
 # === Environment & Secrets ===
 # Never commit your real credentials or connection strings
-.env
+.ipynb_checkpoints/.env
 .env.local
 .env.development.local
 .env.test.local
@@ -8,6 +8,8 @@
 auth.json
 *.pfx
 *.pem
+
+superstore_data/
 
 # === SQL Server Specifics ===
 # Backup files and detached database files
